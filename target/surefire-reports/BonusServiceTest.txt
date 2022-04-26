@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: BonusServiceTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.16 s <<< FAILURE! - in BonusServiceTest
+shouldCalculateNotRegisteredAndBonusNotLimited  Time elapsed: 0.034 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <10>
+	at BonusServiceTest.shouldCalculateNotRegisteredAndBonusNotLimited(BonusServiceTest.java:62)
+
+shouldCalculateNotRegisteredAndBonusLimited  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <500>
+	at BonusServiceTest.shouldCalculateNotRegisteredAndBonusLimited(BonusServiceTest.java:48)
+
